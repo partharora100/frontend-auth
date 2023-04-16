@@ -1,0 +1,30 @@
+{
+  "name": "frontend-auth",
+  "version": "1.0.0",
+  "description": "In this project I learnt about how to work with react forms and basic props drilling.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/partharora100/frontend-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/partharora100/frontend-auth/issues"
+  },
+  "homepage": "https://github.com/partharora100/frontend-auth#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.10.0",
+    "react-router-dom": "^6.10.0"
+  }
+}
