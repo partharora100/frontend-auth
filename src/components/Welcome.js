@@ -1,11 +1,9 @@
 import React from "react";
 import CartContext from "./../context/auth-context.js";
 
-const Welcome = (props) => {
-  const logoutHandler = () => {
-    props.onFormLogout();
-  };
 
+// using Context Consumer here
+const Welcome = () => {
   return (
     <CartContext.Consumer>
       {(ctx) => {

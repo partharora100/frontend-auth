@@ -10,3 +10,9 @@ Later I tries to migrate from prop drilling to contextAPI that react offers to u
 2. useEffect cleanup.
 3. React Context API.
 4. Refactoring the Input Component.
+
+#### Why we send the http request in the useEffect and not in the components itself
+
+We use useEffect hook to avoid infinite loop that will be created if the http request change some state in the component.
+
+To have control over the order of execution of our component.

@@ -103,6 +103,10 @@ nav ul li {
   width: 300px;
 }
 
+/* .welcome button:disabled {
+  background-color: gray;
+} */
+
 .welcome {
   max-width: 700px;
   border: 1px solid black;
@@ -134,4 +138,10 @@ nav ul li {
   border-radius: 4px;
   border: none;
   box-shadow: 0 0 2px black;
+}
+
+button:disabled {
+  background-color: lightgray;
+  border: none;
+  color: darkgray;
 }

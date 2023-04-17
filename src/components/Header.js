@@ -1,9 +1,9 @@
 import React from "react";
-import CartContext from "./../context/auth-context.js";
+import AuthContext from "./../context/auth-context.js";
 
 const Header = () => {
   return (
-    <CartContext.Consumer>
+    <AuthContext.Consumer>
       {(ctx) => {
         return (
           <div className="header">
@@ -22,7 +22,7 @@ const Header = () => {
           </div>
         );
       }}
-    </CartContext.Consumer>
+    </AuthContext.Consumer>
   );
 };
 
